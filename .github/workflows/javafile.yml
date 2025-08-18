@@ -2,7 +2,8 @@
 name: java file setup
 on:
   push:
-    branches: -main
+    branches:
+      -main
 jobs:
   run-all:
     runs-on: ubuntu-latest
